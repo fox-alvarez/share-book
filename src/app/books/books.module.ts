@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 import { BookCreateComponent } from './components/book-create/book-create.component';
 import { BookListComponent } from './components/book-list/book-list.component';
 import { SharedModule } from './../shared/shared.module';
+import { BookDetailComponent } from './components/book-detail/book-detail.component';
 
 @NgModule({
-  declarations: [BookCreateComponent, BookListComponent],
+  declarations: [BookCreateComponent, BookListComponent, BookDetailComponent],
   imports: [CommonModule, SharedModule],
   exports: [BookCreateComponent, BookListComponent],
 })
